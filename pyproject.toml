@@ -1,0 +1,18 @@
+[project]
+name = "workshop-1"
+version = "0.1.0"
+description = "A diagnosable Municipal Front-Desk Assistant built on the OpenAI Responses API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix==20.3.0",
+    "arize-phoenix-otel==0.17.1",
+    "openai==3.3.1",
+    "openinference-instrumentation-openai==0.1.54",
+    "opentelemetry-sdk==1.44.0",
+    "pytest==9.1.1",
+    "python-dotenv==1.2.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

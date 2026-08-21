@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and environment variables
+.env
+
+# Runtime diagnostics may contain residents' questions and model output
+diagnostics/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+
+# Temporary office-document lock files
+~$*
